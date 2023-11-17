@@ -229,6 +229,14 @@ const quizData = [
     scores.style.display = "none";
     begin.style.display = "block";
   }
+
+  function decrementTimer(value) {
+    timerValue -= value;
+    if (timerValue <= 0) {
+      clearInterval(timerId);
+      stopQuiz();
+    }
+  }
   
   submitBtn.addEventListener('click', () => {
     if  (answer === quizData[currentQuiz].correct) {
