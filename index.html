@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Let's Code!</title>
+
+  </head>
+  <body>
+    
+    <header>
+
+      <button id="high-score">High Scores</button>
+      
+      <h2 id="quiz-timer"></h2>
+
+    </header>
+  
+  <div class="container" id="begin">
+
+  <div class="start-quiz">
+    <h1>What do you know about code?!</h1>
+      <p>You have one minute...starting..NOW!</p>
+      <p>Click START to begin the quiz.</p>
+
+ </div>
+    <button id="start-button" class="button">Start the Quiz!</button>
+ </div>
+
+    <div class="quiz-set" id="quiz" style="display: none;">
+
+      <div class="quiz-question">
+
+        <h2 id="question">Insert Question</h2>
+        <ul>
+          <li><button class="answer" id="a"></li>
+
+          <li><button class="answer" id="b"></li>
+
+          <li><button class="answer" id="c"></li>
+
+          <li><button class="answer" id="d"></li>
+
+        </ul>
+      </div>
+
+      <button id="submit">Submit</button>
+
+    </div>
+
+    <div class="results-container" id="results" style="display: none;">
+
+      <h2 id="correct"></h2>
+      <div id="initials"></div>
+
+      <button id="submit-score" onClick="submitScore()">Submit</button>
+    </div>
+
+    <div class="high-score" id="scores" style="display: none;">
+      <div class="score-results">
+        <h1>High Scores</h1>
+
+        <ul>
+
+          <li id="score-one">
+            <label class="name"></label>
+            <label></label>
+          </li>
+
+          <li id="score-two"></label>
+            <label class="name">
+            <label></label>
+          </li>
+
+          <li id="score-three"></label>
+            <label class="name">
+            <label></label>
+          </li>
+
+          <li id="score-four"></label>
+            <label class="name">
+            <label></label>
+          </li>
+
+          <li id="score-five"></label>
+            <label class="name">
+            <label></label>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <button id="return-button">Return Home</button>
+    </div>
+
+  <script src="script.js"></script>
+  
+  </body>
+
+</html>
