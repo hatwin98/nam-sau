@@ -33,8 +33,13 @@ Public Github Repo: https://github.com/hatwin98/nam-sau/
 
 ## Screenshot
 
+<img width="1188" alt="mod 4 challenge" src="https://github.com/hatwin98/nam-sau/assets/143030127/fcfdb5f4-813d-465a-93bb-55adc369a391">
 
 
 ## Summary
 
 The purpose of this challenge is to create a timed quiz. The quiz consists of 5 questions. The user should be allowed to complete the quiz within one minute. When time is up or when user answers all questions should be given the option to enter initials and submit their score. 
+
+## Credits
+
+ Stack Overflow
